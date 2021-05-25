@@ -548,6 +548,11 @@ nav .navbar-nav .nav-item.active .btn {
     right: 5%;
     z-index: 100; } }
 @media (max-width: 993px) {
+  #home-icons h2 {
+    font-size: 24px; }
+  #home-icons p {
+    font-size: 18px; }
+
   #main-footer .mb-resp {
     margin-bottom: 1rem !important; }
 
