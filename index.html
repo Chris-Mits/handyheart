@@ -615,6 +615,41 @@
 		</div>
 	</div>
 	
+	<!-- CAUTION MODAL -->
+	<div class="modal fade" id="cautionModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				
+				<div class="modal-header d-flex align-items-center">
+					<img 
+						src="img/logo/PNG&SVG/handyheartnav.svg"
+						height="40"
+						alt="Modal Logo" />
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				
+				<div class="modal-body">
+					<h2 class="text-center text-primary font-weight-bold">
+						For Academic & Educational Purposes Only
+					</h2>
+					<!-- <hr> -->
+					<p class="lead text-primary text-justify">
+						<span class=" d-inline-block font-weight-bold border-bottom border-primary">
+							This is a fictional website.
+						</span>
+						Any views or opinions represented in this website are personal and belong solely to the website owner and do not represent those of people, institutions or organizations that the owner may or may not be associated with in professional or personal capacity, unless explicitly stated.
+						<span class="d-none d-lg-inline">
+							Any views or opinions are not intended to malign any religion, ethnic group, club, organization, company, or individual.All content provided on this website is for informational & academic purposes only. The owner of this website makes no representations as to the accuracy or completeness of any information on this site or found by following any link on this site. The owner will not be liable for any errors or omissions in this information nor for the availability of this information. The owner will not be liable for any losses, injuries, or damages from the display or use of this information.
+						</span>
+					</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
 	<!-- JQUERY SCRIPT -->
 	<script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -652,6 +687,13 @@
 				});
 			});
 		});
+		
+		// Caution Modal Functionality
+		setTimeout(function() {
+    	$('#cautionModal').modal({
+				backdrop: 'static'
+			});
+		}, 2000);
 	</script>
 
 </body>
