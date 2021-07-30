@@ -280,7 +280,8 @@ nav .navbar-nav .nav-item.active .btn {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  position: relative; }
+  position: relative;
+  user-select: none; }
   #events .calendar .info {
     position: absolute;
     top: 50%;
