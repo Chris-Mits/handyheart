@@ -77,7 +77,21 @@ if (activeBtn) {
   body.onmouseleave = (e) => {
     clearNearBy();
   };
+  
+  function showTime() {
+    let date = new Date();
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+    console.log(hours + " : " + minutes + " : " + seconds);
+  }
+  
+  setInterval(function() {
+    showTime();
+  }, 1000)
+  
 }
+
 // AUTO TEXT DONATION EFFECT
 const textEl = document.getElementById('autotext');
 const text = 'Make a Donation!';
@@ -200,9 +214,9 @@ function GetMap() {
 }
 
 function ekpaPinClicked(e) {
-//Make sure the ekpaBox has metadata to display.
+// Make sure the ekpaBox has metadata to display.
 if (e.target.metadata) {
-    //Set the ekpaBox options with the metadata of the ekpaPin.
+    // Set the ekpaBox options with the metadata of the ekpaPin.
     ekpaBox.setOptions({
         location: e.target.getLocation(),
         title: e.target.metadata.title,
@@ -214,9 +228,9 @@ if (e.target.metadata) {
 }
 
 function handyHeartPinClicked(e) {
-//Make sure the handyHeartBox has metadata to display.
+// Make sure the handyHeartBox has metadata to display.
 if (e.target.metadata) {
-    //Set the handyHeartBox options with the metadata of the handyHeartPin.
+    // Set the handyHeartBox options with the metadata of the handyHeartPin.
     handyHeartBox.setOptions({
         location: e.target.getLocation(),
         title: e.target.metadata.title,
