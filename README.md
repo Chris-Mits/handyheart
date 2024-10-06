@@ -1,10 +1,3 @@
-Hello Everyone!
-
-My name is Chris Mits (Χρήστος Μητσιάρης) and i created this website for an assignement in my university.
-We were tasked in creating a Charity website. This project is currently uploaded in Netlify and is being evaluated for grade by my teacher until the end of month June.
-Also, this project is public because the code will also be evaluated by my teacher.
-All i ask is please please please DO NOT make any changes to the original repo because those changes will be reflected instantly in the hosted website at Netlify.
-That being said, you are free to fork and make any other changes but please do not contribute to the original repository using pull requests.
-For everyone interested, you can find the deployed website here: https://handyheart.netlify.app/index.html
-
-Thank you!!
+Charity website project created as part of a university assignment. 
+The project is hosted on Netlify and is publicly accessible for evaluation. 
+You can view the deployed site [here](https://handyheart.netlify.app/index.html)
